@@ -26,9 +26,3 @@ node --test game.test.js
 ## GitHub Pages
 
 `.github/workflows/deploy-convert-pages.yml` はリポジトリルート全体をアーティファクトとして GitHub Pages にデプロイします。workflow の push トリガーは現在 `main` と `master` に対応しています。別ブランチで運用する場合は `branches` を合わせてください。
-
-公開時に確認したい点:
-
-- 画像素材の再配布可否を事前に確認する
-- GitHub Pages 側で Actions を有効にする
-- URL 配下でも壊れないよう、アセットパスは相対パスを維持する
